@@ -43,7 +43,7 @@ export default function Navbar() {
         : `${process.env.NEXT_PUBLIC_MEDIA_URL}${user.profile_image}`
     : process.env.NEXT_PUBLIC_GUEST_USER_DP
     
-    console.log("image",user?.profile_image)
+    
   useEffect(() => {
     setMounted(true);
   }, []);

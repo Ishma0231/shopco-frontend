@@ -17,7 +17,7 @@ export default function Cart(){
      const {cart,clearCartLoading}=useSelector((state)=>state.cart)
      const {authInitialised}=useSelector((state)=>state.auth)
      const router=useRouter()
-    console.log("cart",cart||"nothing")
+   
      useEffect(()=>{
          if (!authInitialised) return
         const loadCart=async()=>{

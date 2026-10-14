@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes"
 import AuthInitializer from "@/components/auth/AuthInitializer"
 import { GoogleOAuthProvider } from "@react-oauth/google"
 export default function Providers({children}){
-    console.log("Google Client ID:", process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID)
+    
     return (
         <Provider store={store}>
             <AuthInitializer>

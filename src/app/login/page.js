@@ -44,8 +44,13 @@ export default function Login(){
             router.push(`/login/verify?${verifyUrl.toString()}`)
             
         }
-        catch(error){
-            setError(error.message||"Something went wrong")
+            catch (error) {
+            const message =
+                error.email?.message ||
+                error.message ||
+                "Something went wrong";
+
+            setError(message);
         }
     }
 

@@ -64,9 +64,16 @@ export default function Signup(){
             router.push(`/signup/verify?${params.toString()}`)
             
         }
-        catch(error){
-            dispatch(setSnackbarMessage(error.message||"Something went wrong"))
-        }
+        catch (error) {
+                const message =
+                    error.email?.message ||
+                    error.first_name?.message ||
+                    error.last_name?.message ||
+                    error.message ||
+                    "Something went wrong";
+
+                dispatch(setSnackbarMessage(message));
+            }
 
     }
 

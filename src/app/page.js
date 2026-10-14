@@ -54,7 +54,7 @@ export default function HomePage() {
     }, [authInitialised])
 
 
-    console.log("profile",user?.profile_image||"nothing")
+    
     useEffect(()=>{
          if (!authInitialised){
         return
