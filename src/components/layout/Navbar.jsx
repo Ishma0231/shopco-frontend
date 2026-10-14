@@ -284,7 +284,7 @@ export default function Navbar() {
                     src={
                         isAuthenticated && user?.profile_image
                             ? profileImage
-                            : "/images/guestUser.jpg"
+                            : "/images/guestUser.avif"
                     }
                     alt="Profile"
                     className="h-full w-full object-cover"

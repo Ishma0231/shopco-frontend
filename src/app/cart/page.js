@@ -75,7 +75,7 @@ export default function Cart(){
                 <p className="font-semibold pl-4 text-5xl self-start text-[#24a0ed] dark:text-white">Cart</p>
                 <div className="w-full max-w-lg aspect-square mx-auto">
                     <img
-                    src="/images/emptyCart.jpg"
+                    src="/images/emptyCart.avif"
                     alt="empty-cart"
                     className="w-full h-full object-contain"
                     />
@@ -153,7 +153,7 @@ export default function Cart(){
                 <p className="font-semibold pl-4 self-start text-slate-700 dark:text-white">Cart</p>
                 <div className="w-full max-w-lg aspect-square mx-auto">
                     <img
-                    src="/images/emptyCart.jpg"
+                    src="/images/emptyCart.avif"
                     alt="empty-cart"
                     className="w-full h-full object-contain"
                     />

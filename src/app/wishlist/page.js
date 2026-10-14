@@ -49,7 +49,7 @@ export default function Wishlist(){
         <div className="w-full flex items-center justify-center">
             <div className="w-full max-w-lg mx-auto aspect-square">
                 <img
-                src="/images/emptyWishlist.jpg"
+                src="/images/emptyWishlist.avif"
                 alt="empty-wishlist"
                 className="w-full h-full object-contain"
                 />

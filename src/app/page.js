@@ -226,7 +226,7 @@ export default function HomePage() {
 
                 <div className="w-full aspect-square md:w-1/2 overflow-hidden flex justify-center">
                     <img
-                        src="/images/herobanner.jpg"
+                        src="/images/herobanner.avif"
                         alt="Fashion collection"
                         className=" h-full w-full object-cover"
                     />
@@ -235,7 +235,7 @@ export default function HomePage() {
             </section>
             <div className="w-full  h-24 bg-black">
                  <img
-                 src="/images/brandborder.jpg"
+                 src="/images/brandborder.avif"
                  alt="brands"
                  className="h-full w-full object-cover"
                  />
@@ -325,7 +325,7 @@ export default function HomePage() {
                         className="group relative block h-[400px] overflow-hidden rounded-2xl"
                     >
                         <img
-                            src="/images/casual2.jpg"
+                            src="/images/casual2.avif"
                             alt="Casual"
                             className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                         />
@@ -342,7 +342,7 @@ export default function HomePage() {
                         className="group relative block h-[400px] overflow-hidden rounded-2xl"
                     >
                         <img
-                            src="/images/formal2.jpg"
+                            src="/images/formal2.avif"
                             alt="Formal"
                             className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                         />
@@ -359,7 +359,7 @@ export default function HomePage() {
                         className="group relative block h-[400px] overflow-hidden rounded-2xl"
                     >
                         <img
-                            src="/images/party.jpg"
+                            src="/images/party.avif"
                             alt="Party"
                             className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                         />
@@ -376,7 +376,7 @@ export default function HomePage() {
                         className="group relative block h-[400px] overflow-hidden rounded-2xl"
                     >
                         <img
-                            src="/images/gym.jpg"
+                            src="/images/gym.avif"
                             alt="Gym"
                             className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                         />
