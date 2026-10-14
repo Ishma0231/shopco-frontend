@@ -4,6 +4,8 @@ import Providers from "@/app/providers"
 import Navbar from "@/components/layout/Navbar"
 import Footer from "@/components/layout/Footer"
 import GlobalSnackbar from "@/components/common/globalSnackbar";
+import { Suspense } from "react";
+import PageLoader from "@/components/common/pageLoader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,12 +31,14 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-screen flex flex-col">
         <Providers>
+          <Suspense fallback={<PageLoader/>}>
         <Navbar/>
           <GlobalSnackbar/>
         <main className="flex-1 flex flex-col pt-27 pb-11 dark:bg-zinc-950/10 min-h-screen">
         {children}
         </main>
         <Footer/>
+        </Suspense>
         </Providers>
         </body>
     </html>
